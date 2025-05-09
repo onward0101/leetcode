@@ -3,7 +3,6 @@
 [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 ## Problem Summary
-給定一個正整數數列，以及一個目標值，找出所有的子數列乘積，嚴格小於target
 給定一個正整數陣列 `nums` 和整數 `k`，找出所有「乘積嚴格小於 `k`」的**連續子陣列**個數。
 ## My Idea
 <details>

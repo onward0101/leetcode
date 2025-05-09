@@ -25,13 +25,14 @@
 - 每次進入 while 迴圈時：
   - 更新最小長度
   - 收縮視窗左界（從 `left` 開始），並扣除相應的值
-- Time: O(n)，每個元素最多被處理兩次（一次進，一次出）
-- Space: O(1)
+
 
 ## Time & Space Complexity
 1. solution1.cpp
   - Time:  O(n)，每個元素最多只被加入與移除一次（雙指針滑動）
   - Space: O(1)，只使用常數額外空間（不含輸入與輸出）
-
+2. solution2.cpp
+- Time: O(n)，每個元素最多被處理兩次（一次進，一次出）
+- Space: O(1)
 ## Solution video
 [靈神solution](https://www.bilibili.com/video/BV1hd4y1r7Gq?spm_id_from=333.788.player.switch&vd_source=016a3123e35bd83c9093c6fd0a78a044)
